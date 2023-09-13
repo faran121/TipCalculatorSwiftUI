@@ -1,6 +1,6 @@
 
 workspace "TipCalculator.xcodeproj/project.xcworkspace"
-scheme "TipCalculatorSwiftUI"
+scheme "TipCalculator"
 sdk "iphonesimulator"
 device "iphone 14"
 code_coverage true
