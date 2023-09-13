@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: macos-13
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.9.1
@@ -47,6 +47,7 @@ jobs:
         if: steps.setup.outputs.cache-hit == true
         run: bundle exec fastlane unit_test bundle exec fastlane unit_test skip_package_dependencies_resolution:true
 
-      
+    runs:
+      using: 'node16'
 
           
