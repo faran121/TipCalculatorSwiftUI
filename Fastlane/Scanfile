@@ -2,7 +2,7 @@
 workspace "TipCalculator.xcodeproj/project.xcworkspace"
 scheme "TipCalculator"
 sdk "iphonesimulator"
-device "iphone 14"
+device "iPhone 14 Pro"
 code_coverage true
 xcargs '-parallelizeTargets'
 prelaunch_simulator true
