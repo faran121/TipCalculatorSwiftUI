@@ -1,5 +1,5 @@
 
-workspace "TipCalculatorSwiftUI.xcodeproj/project.xcworkspace"
+workspace "TipCalculator.xcodeproj/project.xcworkspace"
 scheme "TipCalculatorSwiftUI"
 sdk "iphonesimulator"
 device "iphone 14"
