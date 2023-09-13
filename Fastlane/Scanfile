@@ -1,0 +1,9 @@
+
+workspace "TipCalculator.xcodeproj/project.xcworkspace"
+scheme "TipCalculator"
+sdk "iphonesimulator"
+device "iphone 14"
+code_coverage true
+xcargs '-parallelizeTargets'
+prelaunch_simulator true
+derived_data_path "Build/"
